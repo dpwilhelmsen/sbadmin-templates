@@ -1,11 +1,13 @@
 {
     "name": "dpwilhelmsen/sbadmin-templates",
-    "description": "SBAdmin templates for InfyOm Laravel Generator",
+    "description": "SB Admin 2 templates for InfyOm Laravel Generator",
     "keywords": [
         "infyom",
         "laravel",
         "generator",
-        "adminlte",
+        "sbadmin",
+        "sb",
+        "admin",
         "templates",
         "bootstrap"
     ],
@@ -22,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\AdminLTETemplates\\": "src/"
+            "ExploreOrg\\SBAdminTemplates\\": "src/"
         }
     }
 }
