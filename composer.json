@@ -1,6 +1,6 @@
 {
-    "name": "infyomlabs/adminlte-templates",
-    "description": "AdminLTE templates for InfyOm Laravel Generator",
+    "name": "dpwilhelmsen/sbadmin-templates",
+    "description": "SBAdmin templates for InfyOm Laravel Generator",
     "keywords": [
         "infyom",
         "laravel",
@@ -12,8 +12,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "Daniel Wilhelmsen",
+            "email": "opensource@danielwilhelmsen.com"
         }
     ],
     "require": {

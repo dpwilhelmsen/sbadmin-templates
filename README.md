@@ -1,4 +1,4 @@
-AdminLTE templates for InfyOm Laravel Generator
+SB Admin 2 templates for InfyOm Laravel Generator
 ================================================
 
-Installation steps are located [here](http://labs.infyom.com/laravelgenerator/docs/master/adminlte-templates)
+These are template files for using SB Admin 2 for Bootstrap 4 with InfyOm generators
