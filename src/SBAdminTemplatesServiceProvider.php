@@ -1,6 +1,6 @@
 <?php
 
-namespace ExploreOrd\SBAdminTemplates;
+namespace ExploreOrg\SBAdminTemplates;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class SBAdminTemplatesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../views', 'adminlte-templates');
+        $this->loadViewsFrom(__DIR__.'/../views', 'sbadmin-templates');
     }
 
     /**
