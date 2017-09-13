@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\AdminLTETemplates;
+namespace ExploreOrd\SBAdminTemplates;
 
 use Illuminate\Support\ServiceProvider;
 
-class AdminLTETemplatesServiceProvider extends ServiceProvider
+class SBAdminTemplatesServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
