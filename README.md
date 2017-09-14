@@ -5,7 +5,7 @@ These are template files for using SB Admin 2 for Bootstrap 4 with InfyOm genera
 
 ## Usage
 
-To use this package you must have the[InfyOm package installed](http://labs.infyom.com/laravelgenerator/docs/5.5/installation).
+To use this package you must have the [InfyOm package installed](http://labs.infyom.com/laravelgenerator/docs/5.5/installation).
 
 In your Laravel's `package.json` add the following line to the `"require"` array:
 
