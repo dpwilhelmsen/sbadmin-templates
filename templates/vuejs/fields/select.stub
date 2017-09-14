@@ -7,12 +7,12 @@
 		</option>
 	</select>
     <div v-if="$validation.$FIELD_NAME$.invalid" class="alert alert-danger" role="alert">
-		<div v-if="$validation.$FIELD_NAME$.required"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+		<div v-if="$validation.$FIELD_NAME$.required"><i class="fa fa-exclamation" aria-hidden="true"></i>
 			<span class="sr-only">Error:</span>
 			El código es obligatorio
 		</div>
 		<div v-if="$validation.$FIELD_NAME$.minlength">
-			<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+			<i class="fa fa-exclamation" aria-hidden="true"></i>
 			<span class="sr-only">Error:</span>
 			Longitud mínima erronea					
 		</div>

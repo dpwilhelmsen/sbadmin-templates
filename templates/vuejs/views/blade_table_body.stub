@@ -3,12 +3,12 @@
         <div class="form-inline form-group">
             <label>Search:</label>
             <input v-model="searchFor" class="form-control" @keyup.enter="setFilter">
-            <button class="btn btn-primary" @click="setFilter"><i class="glyphicon glyphicon-search"></i></button>
-            <button class="btn btn-default" @click="resetFilter">Reset</button>
+            <button class="btn btn-primary" @click="setFilter"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <button class="btn btn-secondary" @click="resetFilter">Reset</button>
         </div>
     </div>
     <div class="col-md-7">
-        <div class="dropdown form-inline pull-right">
+        <div class="dropdown form-inline float-right">
             <label>Pagination Style:</label>
             <select class="form-control" v-model="paginationComponent">
                 <option value="vuetable-pagination-simple">Simple</option>
@@ -22,11 +22,11 @@
                 <option value=20>20</option>
                 <option value=25>25</option>
             </select>
-            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                <i class="glyphicon glyphicon-cog"></i>
+            <button class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-cog" aria-hidden="true"></i>
             </button>
             <ul class="dropdown-menu">
-                <li v-for="field in columns">
+                <li class="dropdown-item" v-for="field in columns">
                     <span class="checkbox">
                         <label>
                             <input type="checkbox" v-model="field.visible">
@@ -47,8 +47,8 @@
         :fields="fields"
         :sort-order="sortOrder"
         table-class="table table-bordered table-striped table-hover"
-        ascending-icon="glyphicon glyphicon-chevron-up"
-        descending-icon="glyphicon glyphicon-chevron-down"
+        ascending-icon="fa fa-chevron-up"
+        descending-icon="fa fa-chevron-down"
         pagination-class=""
         pagination-info-class=""
         pagination-component-class=""
