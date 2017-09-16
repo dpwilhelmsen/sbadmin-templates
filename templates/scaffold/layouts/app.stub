@@ -70,7 +70,7 @@
     <div class="d-md-flex">
     @include('layouts.sidebar')
     <!-- Page Content -->
-        <div id="page-wrapper">
+        <div id="page-wrapper" class="p-4">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-12">
